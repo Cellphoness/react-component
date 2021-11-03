@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'react-component'
-  s.version = '1.4.2'
+  s.version = '1.4.2-bin-spec'
   s.summary = 'An runtime base on react-native.'
   s.description = 
 	<<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 	s.license = { :type => 'MIT' }
   s.author = { 'Liam Xu' => 'liamxujia@outlook.com' }
 	s.platforms = { :ios => '11.0' }
-  s.source = { :git => 'https://github.com/beatjs/react-component.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/Cellphoness/react-component.git', :tag => s.version.to_s }
   s.header_dir = 'ReactComponent'
   s.swift_version = '5.0'
   s.ios.deployment_target = '11.0'
@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
     'ios/Framework/RNSentry.xcframework',
     'ios/Framework/RNVectorIcons.xcframework'
   s.dependency 'react-ios', '~> 0.63.4.4'
+  s.dependency 'lottie-ios', '3.2.3'
   s.dependency 'Sentry', '~> 7.1.0'
   s.dependency 'SDWebImage', '~> 5.8'
   s.dependency 'SDWebImageWebPCoder', '~> 0.6.1'
