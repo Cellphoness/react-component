@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 
     'ios/Framework/BVLinearGradient.xcframework',
     'ios/Framework/lottie_react_native.xcframework',
-    'ios/Framework/Lottie.xcframework',
     'ios/Framework/react_native_get_random_values.xcframework',
     'ios/Framework/react_native_image_resizer.xcframework',
     'ios/Framework/react_native_pager_view.xcframework',
